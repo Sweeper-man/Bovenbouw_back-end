@@ -12,5 +12,6 @@ $a = "hello ";
 $b = " world";
 echo "<h1>".$a.$b."</h1>";
 
-
+$hello = array("hello ", " world");
+echo "<h1>".$hello[0].$hello[1]."</h1>";
 ?>
