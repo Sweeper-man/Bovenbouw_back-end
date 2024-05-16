@@ -6,4 +6,6 @@ echo ($getal1 . " + " . $getal2 . " = " . $getal1 + $getal2 . "<br>");
 echo ($getal1 . " - " . $getal2 . " = " . $getal1 - $getal2 . "<br>");
 echo ($getal1 . " × " . $getal2 . " = " . $getal1 * $getal2 . "<br>");
 echo ($getal1 . " : " . $getal2 . " = " . $getal1 / $getal2 . "<br>");
+
+
 ?>
