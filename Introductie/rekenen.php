@@ -19,7 +19,7 @@ echo "<br>";
 // #2
 function numbers($n) {
     for ($y = 0; $y <= $n; $y++) {
-        echo $y . "<br>";
+        echo $y."<br>";
     }
 }
 
