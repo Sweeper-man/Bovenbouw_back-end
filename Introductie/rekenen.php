@@ -22,7 +22,6 @@ function numbers($n) {
         echo $y."<br>";
     }
 }
-
 numbers(6);
 echo "<br>";
 
