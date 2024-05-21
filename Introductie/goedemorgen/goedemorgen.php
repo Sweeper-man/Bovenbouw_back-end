@@ -3,7 +3,17 @@
 </head>
 </html>
 <style>
+    h1 {
+        text-align: center;
+        margin-top: 275px;
+        font-size: 50px
+        
+    }
 
+    h2 {
+        text-align: center;
+        font-size: 40px;
+    }
 </style>
 
 <?php
@@ -30,7 +40,7 @@ else if ($tijd >= "00:00:00" && $tijd < "06:00:00") {
     echo "<h1>Goede nacht!</h1>";
 }
 
-echo "<h1>".$tijd."</h1>";
+echo "<h2> Het is nu ".$tijd."</h2>";
 echo $achtergrond;
 ?>
 </html>
