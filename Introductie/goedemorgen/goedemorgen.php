@@ -6,8 +6,7 @@
     h1 {
         text-align: center;
         margin-top: 275px;
-        font-size: 50px
-        
+        font-size: 50px  
     }
 
     h2 {
