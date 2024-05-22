@@ -39,7 +39,7 @@ else if ($tijd >= "00:00:00" && $tijd < "06:00:00") {
     echo "<h1>Goede nacht!</h1>";
 }
 
-echo "<h2> Het is nu ".$tijd."</h2>";
+echo "<h2>Het is nu ".$tijd."</h2>";
 echo $achtergrond;
 ?>
 </html>
