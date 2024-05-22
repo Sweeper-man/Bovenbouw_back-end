@@ -1,0 +1,13 @@
+form {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#name {
+    margin-bottom: 10px;
+}
+
+#email {
+    margin-bottom: 10px;
+}
