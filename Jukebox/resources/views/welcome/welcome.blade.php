@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+@extends("layouts.template")
+
+@push("styles")
+<link rel="stylesheet" herf="css/otherStyle.css">
+@endpush
+
+@section("content")
     <h1>Welkom gebruiker!</h1>
-</body>
-</html>
+@endsection
+
+@section("title")
+    Welcome
+@endsection
