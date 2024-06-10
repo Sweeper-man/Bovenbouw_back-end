@@ -8,3 +8,7 @@ h2 {
     text-align: center;
     font-size: 40px;
 }
+
+body {
+    background-size: 100% 100%;
+}

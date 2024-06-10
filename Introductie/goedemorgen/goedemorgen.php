@@ -2,7 +2,7 @@
 <head>
 <link rel="stylesheet" href="css/style.css">
 </head>
-</html>
+<body>
 
 <?php
 date_default_timezone_set("Europe/Amsterdam");
@@ -31,4 +31,6 @@ else if ($tijd >= "00:00:00" && $tijd < "06:00:00") {
 echo "<h2>Het is nu ".$tijd."</h2>";
 echo $achtergrond;
 ?>
+
+</body>
 </html>
