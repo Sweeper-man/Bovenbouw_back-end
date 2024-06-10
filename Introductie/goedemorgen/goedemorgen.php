@@ -1,19 +1,8 @@
 <html>
 <head>
+<link rel="stylesheet" href="css/style.css">
 </head>
 </html>
-<style>
-    h1 {
-        text-align: center;
-        margin-top: 275px;
-        font-size: 50px  
-    }
-
-    h2 {
-        text-align: center;
-        font-size: 40px;
-    }
-</style>
 
 <?php
 date_default_timezone_set("Europe/Amsterdam");
