@@ -21,7 +21,7 @@ class GenreController extends Controller
      */
     public function create()
     {
-        //
+        return view("genres.create");
     }
 
     /**
@@ -29,7 +29,9 @@ class GenreController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        Genre::create([
+            "name" => $request->get("name")
+        ]);
     }
 
     /**

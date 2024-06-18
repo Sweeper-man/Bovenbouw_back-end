@@ -12,7 +12,8 @@ class PlaylistController extends Controller
      */
     public function index()
     {
-        return view("playlists.index");
+        $playlists = Playlist::all();
+        return view("playlist.index", ["playlists"=>$playlists]);
     }
 
     /**
@@ -20,7 +21,7 @@ class PlaylistController extends Controller
      */
     public function create()
     {
-        //
+        return view("playlists.create");
     }
 
     /**

@@ -1,7 +1,7 @@
 @extends("layouts.template")
 
 @push("styles")
-<link rel="stylesheet" herf="css/otherStyle.css">
+<link rel="stylesheet" href="css/otherStyle.css">
 @endpush
 
 @section("content")
