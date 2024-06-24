@@ -13,7 +13,7 @@ class SongController extends Controller
     public function index()
     {
         $songs = Song::all();
-        return view("playlist.index", ["songs"=>$songs]);
+        return view("songs.index", ["songList"=>$songs]);
     }
 
     /**

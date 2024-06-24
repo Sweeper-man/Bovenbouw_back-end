@@ -21,7 +21,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get("/songs", [SongController::class, "song"]);
+// Route::get("/hello", [Welcome::class, "hello"]);
+
+Route::get("/songs", [SongController::class, "index"]);
 
 Route::get("/song/create", [SongController::class, "create"]);
 Route::post("/song/store", [SongController::class, "store"]);

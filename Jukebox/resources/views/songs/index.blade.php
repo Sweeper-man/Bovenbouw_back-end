@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Welkom op de song pagina!</h1>
-</body>
-</html>
+@extends("layouts.template")
+
+@section("content")
+    <h1>Hier is een lijst met alle liedjes</h1>
+    @foreach ($songList as $song)
+    - {{$song->name}} - genre: {{$song->genre->name}}
+    <br>
+    @endforeach
+@endsection
