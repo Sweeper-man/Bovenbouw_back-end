@@ -7,16 +7,19 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <?php
-        
-    ?>
-
-    <form method="post">
+    <form method="get">
         <label for="naam">Naam:</label><br>
         <input type="text" id="naam" name="naam" required><br>
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br>
         <input type="submit" value="verstuur">
     </form>
+
+    <?php
+        if (isset($_GET["naam"]) || isset($_GET["email"])) {
+            echo "Het werkt!";
+        }
+?>
+
 </body>
 </html>
