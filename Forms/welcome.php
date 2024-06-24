@@ -17,9 +17,11 @@
 
     <?php
         if (isset($_GET["naam"]) && isset($_GET["email"])) {
-            echo "Het werkt!";
+            echo "<h1>De ingevulde gegevens zijn:</h1>";
+            echo "Naam: ", $_POST["naam"];
+            echo "Emailadres: ", $_POST["email"];
         }
-?>
+    ?>
 
 </body>
 </html>
