@@ -16,7 +16,7 @@
     </form>
 
     <?php
-        if (isset($_GET["naam"]) || isset($_GET["email"])) {
+        if (isset($_GET["naam"]) && isset($_GET["email"])) {
             echo "Het werkt!";
         }
 ?>
