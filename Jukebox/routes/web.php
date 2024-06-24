@@ -23,11 +23,8 @@ Route::get('/', function () {
 
 Route::get("/songs", [SongController::class, "song"]);
 
-Route::get("/home", [WelcomeController::class, "welcome"]);
-
-Route::get("/playlist", [PlaylistController::class, "index"]);
-
-Route::get("/genre/all", [GenreController::class, "index"]);
+Route::get("/song/create", [SongController::class, "create"]);
+Route::post("/song/store", [SongController::class, "store"]);
 
 Route::get("/genre/create", [GenreController::class, "create"]);
 Route::post("genre/store", [GenreController::class, "store"]);
@@ -35,5 +32,8 @@ Route::post("genre/store", [GenreController::class, "store"]);
 Route::get("/playlist/create", [PlaylistController::class, "create"]);
 Route::post("playlist/store", [PlaylistController::class, "store"]);
 
-Route::get("/song/create", [SongController::class, "create"]);
-Route::post("song/store", [SongController::class, "store"]);
+Route::get("/home", [WelcomeController::class, "welcome"]);
+
+Route::get("/playlist", [PlaylistController::class, "index"]);
+
+Route::get("/genre/all", [GenreController::class, "index"]);
