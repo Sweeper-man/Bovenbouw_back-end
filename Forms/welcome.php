@@ -16,10 +16,12 @@
     </form>
 
     <?php
-        if (isset($_GET["naam"]) && isset($_GET["email"])) {
-            echo "<h1>De ingevulde gegevens zijn:</h1>";
-            echo "Naam: ", $_POST["naam"];
-            echo "Emailadres: ", $_POST["email"];
+        if ($_SERVER["REQUEST_METHOD"] == "GET") {
+            if (isset($_GET["naam"]) && isset($_GET["email"])) {
+                echo "<h1>De ingevulde gegevens zijn:</h1>";
+                echo "Naam: ", $_GET["naam"], "<br>";
+                echo "Emailadres: ", $_GET["email"];
+            }
         }
     ?>
 
