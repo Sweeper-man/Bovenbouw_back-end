@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Mad Libs</h1>`
     <ul>
         <li><a class="active" href="#paniek">Er heerst paniek</a></li>
         <li><a href="#onkunde">Onkunde</a></li>
     </ul>
+    <h1>Onkunde</h1>
     <form>
         <label for="één">Wat zou je graag willen kunnen?</label>
         <input type="text" id="één" name="één" required><br>
