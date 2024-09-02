@@ -26,11 +26,12 @@
 
         form {
             background-color: white;
-            padding: 5px;
+            padding: 10px;
         }
 
         footer {
             background-color: rgb(83, 82, 69);
+            color: white;
             padding: 10px;
             text-align: center;
         }
