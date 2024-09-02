@@ -38,7 +38,7 @@
 </head>
 <body>
     <div class="menu">
-        <a class="active" href="#paniek">Er heerst paniek</a>
+        <a class="active" href="#paniek">Er heerst paniek...</a>
         <a href="#onkunde">Onkunde</a>
     </div>
     <form>
