@@ -8,7 +8,7 @@
 </head>
 <body>
     <ul>
-        <li><a class="active" href="#paniek">Er heerst paniek</a></li>
+        <li><a href="#paniek">Er heerst paniek</a></li>
         <li><a href="#onkunde">Onkunde</a></li>
     </ul>
     <h1>Er heerst paniek...</h1>
