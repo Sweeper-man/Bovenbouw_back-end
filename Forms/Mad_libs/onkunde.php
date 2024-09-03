@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Onkunde</title>
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style.css">
     <style>
         body {
             background-color: rgb(59, 58, 53);
@@ -27,6 +27,7 @@
         form {
             background-color: white;
             padding: 10px;
+            padding-bottom: 30px;
         }
 
         footer {
