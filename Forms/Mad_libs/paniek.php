@@ -20,6 +20,7 @@
             echo $_GET["vijf"];
             echo $_GET["zes"];
             echo $_GET["zeven"];
+            echo $_GET["acht"];
         ?>
     </form>
     <footer>
