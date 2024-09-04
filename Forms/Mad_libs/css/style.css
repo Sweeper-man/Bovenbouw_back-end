@@ -26,6 +26,10 @@ form {
     padding-bottom: 30px;
 }
 
+header {
+    color: white;
+}
+
 footer {
     background-color: rgb(83, 82, 69);
     color: white;
