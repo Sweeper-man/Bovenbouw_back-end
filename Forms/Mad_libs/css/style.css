@@ -4,10 +4,6 @@ body {
     max-width: 500px;
 }
 
-h1 {
-    color: white;
-}
-
 .menu {
     background-color: rgb(171, 37, 19);
     display: block;
@@ -27,7 +23,7 @@ form {
 }
 
 header {
-    color: white;
+    color: white; 
 }
 
 footer {
