@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <h1>Mad Libs</h1>
     <div class="menu">
         <a href="paniek.php">Er heerst paniek...</a>
         <a href="onkunde.php">Onkunde</a>
