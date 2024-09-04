@@ -16,7 +16,7 @@
     </div>
     <form>
         Er zijn veel mensen die niet kunnen <?php echo $_GET["één"]; ?>. Neem nou <?php echo $_GET["twee"]; ?>. 
-        Zelfs met de hulp van een <?php echo $_GET["vier"]; ?> of zelfs <?php echo $_GET["drie"]; ?> kan <?php echo $_GET["één"]; ?> niet <? echo $_GET["één"]; ?>.
+        Zelfs met de hulp van een <?php echo $_GET["vier"]; ?> of zelfs <?php echo $_GET["drie"]; ?> kan <?php echo $_GET["twee"]; ?> niet <? echo $_GET["één"]; ?>.
         Dat heeft niet te maken met een gebrek aan <?php echo $_GET["vijf"]; ?>, maar met een te veel aan <?php echo $_GET["zes"]; ?>.
         Te veel <?php echo $_GET["zes"]; ?> leidt tot <?php echo $_GET["zeven"]; ?> en dat is niet goed als je wilt <?php echo $_GET["één"];?>.
         Helaas voor <?php echo $_GET["twee"]; ?>.
