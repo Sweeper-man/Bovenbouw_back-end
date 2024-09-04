@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <ul>
-        <li><a href="#paniek">Er heerst paniek...</a></li>
-        <li><a href="#onkunde">Onkunde</a></li>
-    </ul>
-    <h1>Er heerst paniek...</h1>
-    <form>
+    <div class="menu">
+        <a href="paniek.html">Er heerst paniek...</a>
+        <a href="onkunde.html">Onkunde</a>
+    </div>
+    <form action="paniek.php" method="get">
+        <h1>Er heerst paniek...</h1>
         <label for="één">Welk dier zou je nooit als huisdier willen hebben?</label>
         <input type="text" id="één" name="één" required><br>
 
@@ -38,6 +38,10 @@
         <input type="text" id="acht" name="acht" required><br>
 
         <input type="submit" value="Versturen">
-    </form>    
+    </form>
+
+    <footer>
+        © Sean van Gooswilligen
+    </footer>
 </body>
 </html>
