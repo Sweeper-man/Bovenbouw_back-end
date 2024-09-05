@@ -1,4 +1,4 @@
 <?php
 require "variables.php";
-echo($naam);
+echo("$a, $b, $c");
 ?>
