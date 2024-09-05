@@ -22,6 +22,16 @@ form {
     padding-bottom: 30px;
 }
 
+label {
+    display: inline-block;
+    padding-bottom: 20px;
+    width: 300px;
+}
+
+.send {
+    text-align: center;
+}
+
 header {
     color: white; 
 }
