@@ -35,16 +35,6 @@
         "<?php echo $_GET["twee"]; ?>, je hebt helemaal gelijk! Wat zou ik doen als ik jou niet had."
 
         "<?php echo $_GET["vier"]; ?>, Sire."
-        <?php
-            echo $_GET["één"];
-            echo $_GET["twee"];
-            echo $_GET["drie"];
-            echo $_GET["vier"];
-            echo $_GET["vijf"];
-            echo $_GET["zes"];
-            echo $_GET["zeven"];
-            echo $_GET["acht"];
-        ?>
     </form>
     <footer>
         © Sean van Gooswilligen
