@@ -11,8 +11,8 @@
         <h1>Mad Libs</h1>
     </header>
     <div class="menu">
-        <a href="paniek.php">Er heerst paniek...</a>
-        <a href="onkunde.php">Onkunde</a>
+        <a href="paniek.html">Er heerst paniek...</a>
+        <a href="onkunde.html">Onkunde</a>
     </div>
     <form>
         Er heerst paniek in het koninkrijk <?php echo $_GET["drie"]; ?>. 
