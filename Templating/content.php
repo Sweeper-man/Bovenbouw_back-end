@@ -10,7 +10,7 @@ $naam = "Sean van Gooswilligen";
     <title>Document</title>
 </head>
 <body>
-    <img src="images/chill.jpg" alt="#" style="float: left; width: 400px; height: 400px;">
+    <img src="images/chill.jpg" alt="#" style="float: left; width: 300px; height: 300px;">
     Lorem ipsum odor amet, consectetuer adipiscing elit. 
     Arcu quisque vulputate elementum aliquet taciti pretium metus posuere massa. 
     Cras semper curae eros quis morbi vitae. 
