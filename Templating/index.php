@@ -1,3 +1,5 @@
+<?php require "content.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
