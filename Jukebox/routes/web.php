@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArtistController;
 use App\Http\Controllers\GenreController;
 use App\Http\Controllers\PlaylistController;
 use App\Http\Controllers\SongController;
@@ -35,5 +36,7 @@ Route::post("genre/store", [GenreController::class, "store"]);
 Route::get("/playlist", [PlaylistController::class, "index"]);
 Route::get("/playlist/create", [PlaylistController::class, "create"]);
 Route::post("playlist/store", [PlaylistController::class, "store"]);
+
+Route::get("/artist", [ArtistController::class, "index"]);
 
 Route::get("/home", [WelcomeController::class, "welcome"]);
