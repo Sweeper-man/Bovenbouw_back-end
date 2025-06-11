@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" herf="css/style.css">
-    @stack("styles")
-    <title>Document</title>
+    <link rel="stylesheet" herf="style.css">
+    <title>@yield('title')</title>
+
+    @stack('styles')
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="home">Home</a></li>
-            <li><a href="playlist">Playlists</a></li>
-            <li><a href="genre">Genre</a></li>
+            <li><a href="{{route('artist.index')}}">Artists</a></li>
+            <li><a href="{{route('album.index')}}">Albums</a></li>
         </ul>
     </nav>
 
-@yield("content")
+@yield('content')
 
 <footer>
     &copy; Sean van Gooswilligen - 2024
 </footer>
 
+@stack('scripts')
 </body>
 </html>

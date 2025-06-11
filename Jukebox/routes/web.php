@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ArtistController;
+use App\Http\Controllers\AlbumController;
 use App\Http\Controllers\GenreController;
 use App\Http\Controllers\PlaylistController;
 use App\Http\Controllers\SongController;
@@ -22,8 +23,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get("/hello", [Welcome::class, "hello"]);
-
 Route::get("/songs", [SongController::class, "index"]);
 
 Route::get("/song/create", [SongController::class, "create"]);
@@ -37,6 +36,7 @@ Route::get("/playlist", [PlaylistController::class, "index"]);
 Route::get("/playlist/create", [PlaylistController::class, "create"]);
 Route::post("playlist/store", [PlaylistController::class, "store"]);
 
-Route::get("/artist", [ArtistController::class, "index"]);
+Route::get("/artists/all", [ArtistController::class, "index"])->name("artist.index");
+Route::get("/albums/all", [AlbumController::class, "index"])->name("album.index");
 
 Route::get("/home", [WelcomeController::class, "welcome"]);
