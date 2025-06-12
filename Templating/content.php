@@ -8,12 +8,13 @@ $naam = "Sean van Gooswilligen";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./J2F1BELP3L2_includes/css/style.css">
 </head>
 <body>
     <?php
         include "./J2F1BELP3L2_includes/includes/header.php"
     ?>
-    
+     
     Lorem ipsum odor amet, consectetuer adipiscing elit. 
     Arcu quisque vulputate elementum aliquet taciti pretium metus posuere massa. 
     Cras semper curae eros quis morbi vitae. 
