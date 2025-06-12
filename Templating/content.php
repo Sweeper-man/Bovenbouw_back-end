@@ -10,7 +10,10 @@ $naam = "Sean van Gooswilligen";
     <title>Document</title>
 </head>
 <body>
-    <img src="images/chill.jpg" alt="#" style="float: left; width: 300px; height: 300px;">
+    <?php
+        include "./J2F1BELP3L2_includes/includes/header.php"
+    ?>
+    
     Lorem ipsum odor amet, consectetuer adipiscing elit. 
     Arcu quisque vulputate elementum aliquet taciti pretium metus posuere massa. 
     Cras semper curae eros quis morbi vitae. 
@@ -19,5 +22,9 @@ $naam = "Sean van Gooswilligen";
     Senectus nunc aliquet odio aliquam dictum odio feugiat feugiat. 
     Est ornare netus mattis euismod curabitur phasellus sagittis. 
     Netus ipsum semper tortor maximus viverra parturient nam himenaeos.
+
+    <?php
+        include "./J2F1BELP3L2_includes/includes/footer.php"
+    ?>
 </body>
 </html>

@@ -3,3 +3,5 @@ Gebruik hier tenminste een header afbeelding en een menu
 Zorg dat je in het menu bij elk item een url parameter zet
 om te bepalen welke inhoud er ingeladen moet worden in je html
 -->
+
+<img src="./J2F1BELP3L2_includes/images/trein.jpg">
