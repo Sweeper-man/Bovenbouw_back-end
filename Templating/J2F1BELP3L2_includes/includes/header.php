@@ -3,13 +3,20 @@ Gebruik hier tenminste een header afbeelding en een menu
 Zorg dat je in het menu bij elk item een url parameter zet
 om te bepalen welke inhoud er ingeladen moet worden in je html
 -->
-<link rel="stylesheet" href="../css/style.css">
-
-<ul>
-    <li><a href="./index.php?id=0">Badminton</a></li>
-    <li><a href="./onderwerp1.php?id=1">Kickoxen</a></li>
-    <li><a href="./onderwerp2.php?id=2">Taekwondo</a></li>
-    <li><a href="./onderwerp3.php?id=3">F1</a></li>
-</ul>
-
-<img src="">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <ul>
+        <li><a href="index.php?page=onderwerp1">Badminton</a></li>
+        <li><a href="index.php?page=onderwerp2">Kickoxen</a></li>
+        <li><a href="index.php?page=onderwerp3">Taekwondo</a></li>
+        <li><a href="index.php?page=onderwerp4">F1</a></li>
+    </ul>
+</body>
+</html>
